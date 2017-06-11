@@ -1,0 +1,155 @@
+-----------------------------------------------
+
+filename: techskills-introtoreact-2-plunging_into_build
+
+title: Plunging into Build
+
+subtitle: Intro to React
+
+-----------------------------------------------
+
+Outline:
+
+  - Transition to a build (compile) process is a big change
+    - Most historical JavaScript, like reference, are human readable files
+    - At some time building has been around for specialty purposes
+      - Tools
+        - Grunt
+        - Gulp
+        - Less
+        - Sass
+      - Purposes
+        - CSS short-cuts, variables
+        - CSS autoprefixing
+        - JavaScript minifying
+        - JavaScript bundling
+  - Looking at CRA build output
+    - [_Cue_:]
+      - Production build vs development
+      - Execute
+        - Working directory
+          - reference-cra
+        - Command
+          - yarn build
+    - [_Cue_:]
+      - The output
+      - Execute
+        - Working directory
+          - reference-cra/build
+        - Command
+          - ls
+    - Ignore both asset-manifest.json and service-worker.js
+      - Used with advanced offline caching techniques
+    - [_Cue_:]
+      - HTML file with injected <script> tag
+      - Editor
+        - reference-cra/build/index.html
+    - [_Cue_:]
+      - minimized JavaScript; oddly large
+      - Editor
+        - reference-cra/build/static/js/main.a38c6114.js
+    - [_Cue_:]
+      - The map file is used for debugging
+      - Execute
+        - Working directory
+          - reference-cra/build/static/js
+        - Command
+          - ls
+  - require: A modern practice, break up JavaScript into small modular files.
+    - Modules have their own variable scope (or closure)
+    - Modules export their functionality by assigning a value to module.exports.
+    - Modules import functionality from other modules using the require function.          
+    - [_Cue_:]
+      - Exporting a function
+      - Editor
+        - require/src/hello.js
+    - [_Cue_:]
+      - Importing a function
+      - Editor
+        - require/src/index.js
+    - [_Cue_:]
+      - Observing result
+      - Execute
+        - Working directory
+          - require
+        - Command
+          - yarn start
+  - folder: You can also require a folder
+    - [_Cue_:]
+      - Key is the file name, index.js (or index.jsx - later)
+      - Execute
+        - Working directory
+          - folder/src/hello
+        - Command
+          - ls
+  - package: Requiring third-party code
+    - Node Package Manager (npm) packages
+    - Can use npm command
+    - [_Cue_:]
+      - Can also use yarn; faster and more precise version control
+      - Execute
+        - Working directory
+          - package
+        - Command
+          - yarn add sillyname
+    - [_Cue_:]
+      - Keep track of project dependencies
+      - Editor
+        - package/package.json
+    - [_Cue_:]
+      - Using a package
+      - Editor
+        - package/src/index.js
+    - [_Cue_:]
+      - Observing result
+      - Execute
+        - Working directory
+          - package
+        - Command
+          - yarn start
+  - css: bringing in CSS
+    - simply require it
+    - production build creates a single combined CSS file
+    - [_Cue_:]
+      - Regular CSS file
+      - Editor
+        - css/src/index.css
+    - [_Cue_:]
+      - Importing CSS
+      - Editor
+        - require/src/index.js
+    - [_Cue_:]
+      - Observing result
+      - Execute
+        - Working directory
+          - css
+        - Command
+          - yarn start
+  - images: bringing in images
+    - Like CSS, just require it
+    - production build may store in build/static/media on in the JS bundle
+    - [_Cue_:]
+      - Add image to the src directory
+      - Execute
+        - Working directory
+          - images/src
+        - Command
+          - ls
+    - [_Cue_:]
+      - Creating image tag - this is a pain
+      - Editor
+        - public/index.html
+    - [_Cue_:]
+    - [_Cue_:]
+      - Importing Image
+      - Editor
+        - images/src/index.js
+    - [_Cue_:]
+      - Observing result
+      - Execute
+        - Working directory
+          - images
+        - Command
+          - yarn start        
+
+Questions:
