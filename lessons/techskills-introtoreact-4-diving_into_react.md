@@ -39,7 +39,7 @@ Outline:
           - my-app/yarn.lock
   - public folder
       - [_Cue_:]
-        - root element, injecting into, separation of concerns
+        - root element, injecting into, separation of concerns (BENEFIT REACT)
         - Editor
             - my-app/public/index.html
   - Entry Point
