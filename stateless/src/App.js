@@ -11,10 +11,13 @@ class App extends Component {
   render() {
     const { counter } = this.state;
     return (
+      <Counter />
+      {/*
       <Counter
         increment={() => this.setState({ counter: counter + 1 })}
         value={counter === 0 ? 'zero' : counter.toString()}
       />
+      */}
     );
   }
 }

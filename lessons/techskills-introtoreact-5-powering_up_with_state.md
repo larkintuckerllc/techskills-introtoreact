@@ -51,5 +51,12 @@ Outline:
     - imperative solution would have click handler directly update both divs
     - declarative solution is say change the value of the counter and let all UI elements update themselves.
     - Big benefit of React
+  - [_Cue_:]
+    - It is working
+      - Execute
+        - working directory
+          - re-implement
+        - command
+          - yarn start
 
 Questions:
