@@ -95,5 +95,3 @@ Outline:
       - Editor:
         - reference-cra/src/index.js
   - In next episode, we will learn more about the build process.
-
-Questions:

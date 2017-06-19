@@ -159,5 +159,3 @@ Outline:
           - yarn start        
   - [_Question_:] So are we ready to learn React now?
   - In the next episode we will introduce the modern ES2015 JavaScript.
-
-Questions:
