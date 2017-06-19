@@ -10,6 +10,7 @@ subtitle: Intro to React
 
 Outline:
 
+  - [_Question_:] I have heard a lot about the React JavaScript library lately. What is it and what is it used for?
   - What is React?
     - "A JavaScript library for building user interfaces" -- Facebook
       - Application that runs in the web browser
@@ -22,6 +23,7 @@ Outline:
       - Focused: Keep React itself simple; leaving rest to community
       - Tested: Because of thousands of applications depend on it
       - Stable: Changing thousands of applications is a non-starter
+    - [_Question_:] What do you need to get started with React?
     - Knowledge Prerequisites
       - Familiarity with HTML, CSS, and JavaScript
       - Assumption; coming from (or familiar with) a jQuery style application.
@@ -40,10 +42,7 @@ Outline:
             - https://yarnpkg.com/en/docs/install
       - Code available
         - [_Cue_:]
-        - Download
-        - URL:
-          - https://github.com/larkintuckerllc/react-patterns
-        - TODO: MOVE TO ITPRO.TV
+        - Download in the video notes.
     - Three Pillars of React
       - Build
         - The first leap
@@ -62,6 +61,7 @@ Outline:
           - reference/index.html
       - [_Cue_:]
         - The JavaScript; Aside on IIFE (Immediately Invoked Function Expression)
+        - [_Question_:] That unusual function syntax is familiar; can you remind me what it does?
         - Editor:
           - reference/index.js
     - Create React App (CRA)
@@ -77,6 +77,7 @@ Outline:
             - my-app
           - Command
             - yarn start
+    - [_Question_:] You said that Create React App is a "little" bit of React?
     - Reference Example with CRA; no React, just build
       - [_Cue_:]
         - Demo
