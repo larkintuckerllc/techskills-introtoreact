@@ -10,6 +10,7 @@ subtitle: Intro to React
 
 Outline:
 
+  - [_Question_:] I often hear about builds and webpack in conjunction with React, what is that about?
   - Transition to a build (compile) process is a big change
     - Most historical JavaScript, like reference, are human readable files
     - At some time building has been around for specialty purposes
@@ -18,6 +19,7 @@ Outline:
         - Gulp
         - Less
         - Sass
+        - webpack (under hood of CRA)
       - Purposes
         - CSS short-cuts, variables
         - CSS autoprefixing
@@ -55,6 +57,8 @@ Outline:
           - reference-cra/build/static/js
         - Command
           - ls
+  - [_Question_:] How do exactly deploy my application to production?
+  - Copy contents of dist folder to a web server and access index.html in browser.
   - require: A modern practice, break up JavaScript into small modular files.
     - Modules have their own variable scope (or closure)
     - Modules export their functionality by assigning a value to module.exports.
@@ -82,6 +86,7 @@ Outline:
           - folder/src/hello
         - Command
           - ls
+  - [_Question_:] I see how you require your own modules; how about requiring third-party code?
   - package: Requiring third-party code
     - Node Package Manager (npm) packages
     - Can use npm command
@@ -91,7 +96,7 @@ Outline:
         - Working directory
           - package
         - Command
-          - yarn add sillyname
+          - yarn add sillyname (DON'T DO - SLOW)
     - [_Cue_:]
       - Keep track of project dependencies
       - Editor
@@ -108,6 +113,7 @@ Outline:
         - Command
           - yarn start
   - css: bringing in CSS
+    - [_Question_:] CSS? I normally just add CSS links to my HTML file.
     - simply require it
     - production build creates a single combined CSS file
     - [_Cue_:]
@@ -151,5 +157,7 @@ Outline:
           - images
         - Command
           - yarn start        
+  - [_Question_:] So are we ready to learn React now?
+  - In the next episode we will introduce the modern ES2015 JavaScript.
 
 Questions:
