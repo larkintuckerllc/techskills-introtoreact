@@ -1,8 +1,8 @@
 -----------------------------------------------
 
-filename: techskills-introtoreact-2-plunging_into_build
+filename: techskills-introtoreact-2-1-plunging_into_build_part_1
 
-title: Plunging into Build
+title: Plunging into Build: Part 1
 
 subtitle: Intro to React
 
@@ -112,50 +112,4 @@ Outline:
           - package
         - Command
           - yarn start
-  - css: bringing in CSS
-    - [_Question_:] CSS? I normally just add CSS links to my HTML file.
-    - simply require it
-    - production build creates a single combined CSS file
-    - [_Cue_:]
-      - Regular CSS file
-      - Editor
-        - css/src/index.css
-    - [_Cue_:]
-      - Importing CSS
-      - Editor
-        - require/src/index.js
-    - [_Cue_:]
-      - Observing result
-      - Execute
-        - Working directory
-          - css
-        - Command
-          - yarn start
-  - images: bringing in images
-    - Like CSS, just require it
-    - production build may store in build/static/media on in the JS bundle
-    - [_Cue_:]
-      - Add image to the src directory
-      - Execute
-        - Working directory
-          - images/src
-        - Command
-          - ls
-    - [_Cue_:]
-      - Creating image tag - this is a pain
-      - Editor
-        - public/index.html
-    - [_Cue_:]
-    - [_Cue_:]
-      - Importing Image
-      - Editor
-        - images/src/index.js
-    - [_Cue_:]
-      - Observing result
-      - Execute
-        - Working directory
-          - images
-        - Command
-          - yarn start        
-  - [_Question_:] So are we ready to learn React now?
-  - In the next episode we will introduce the modern ES2015 JavaScript.
+  - In the next episode we export building with CSS and assets, e.g., images.
