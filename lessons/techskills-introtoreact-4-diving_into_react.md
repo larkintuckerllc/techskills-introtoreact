@@ -10,35 +10,16 @@ subtitle: Intro to React
 
 Outline:
 
+  - [_Question_:] What are all the files in a React application
   - Walking through CRA build
-  - Build - Already talked about.
+  - Build - Already talked about; same as before.
   - GIT configuration
-    - [_Cue_:]
-        - Project documentation
-        - Editor
-          - my-app/README.md
-    - [_Cue_:]
-        - Which files to not store in source control
-        - Editor
-          - my-app/.gitignore
+    - README.md and .gitignore outside of scope
   - package management
-    - [_Cue_:]
-        - Project dependencies, dev. dep, and scripts
-        - Editor
-          - my-app/package.json
-    - [_Cue_:]
-        - Lots of packages
-        - Execute
-          - working directory
-            - my-app/node_modules
-          - command
-            - ls
-    - [_Cue_:]
-        - Yarn advanced dependency
-        - Editor
-          - my-app/yarn.lock
+    - package.json, node_modules, yarn.lock saw before
   - public folder
       - [_Cue_:]
+        - ignore favicon.ico and manifest.json
         - root element, injecting into, separation of concerns (BENEFIT REACT)
         - Editor
             - my-app/public/index.html
@@ -55,15 +36,17 @@ Outline:
   - The Meat
     - [_Cue_:]
       - Import, export and destructuring be familiar
-      - class syntax is JavaScript ES2015 feature
+      - [_Question_:] Is the class syntax specific to React
+      - No, class syntax is JavaScript ES2015 feature
         - same concept as other object-oriented
         - render is the only required method
+        - [_Question_:] Is that HTML?
         - Looks like HTML is actually JSX
           - nested React.createElement commands
           - className instead of class
           - {logo} vs "logo" - pass value vs string
       - Editor
-          - my-app/src/App.jsx
+        - my-app/src/App.jsx
     - [_Cue_:]
       - Remind output
         - Execute
@@ -71,10 +54,5 @@ Outline:
             - my-app
           - command
             - yarn start
-  - The alternative with ES5
-    - document.createElement
-    - setAttribute
-    - classList.add
-    - appendChild
-
-Questions:
+- [_Question_:] Are we ready to start building with React?
+- In next episode we will begin to re-implement our reference example and learn about additional concepts.
