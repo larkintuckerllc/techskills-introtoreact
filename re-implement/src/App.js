@@ -18,6 +18,13 @@ class App extends Component {
         {/*
         <div>{counter}</div>
         <div>{counter === 0 ? 'zero' : counter.toString()}</div>
+        */}
+        {/*
+        <button
+          onClick={() => window.console.log('Clicked')}
+        >+</button>
+        */}
+        {/*
         <button
           onClick={() => this.setState({ counter: counter + 1 })}
         >+</button>
