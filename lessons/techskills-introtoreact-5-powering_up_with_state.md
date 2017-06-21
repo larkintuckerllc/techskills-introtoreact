@@ -57,3 +57,12 @@ Outline:
     - Compares differences to DOM and then updates differences
     - Performance benefit as the render method can render whole bunch
     - Big benefit of React
+  - React Developer Tools
+    - [_Cue_:]
+      - Installed from Chrome Web Store
+      - Browser
+        - Google Chrome Web Store
+    - [_Cue_:]
+      - Inspect component hiearchy, state
+      - Browser
+        - Developer Tools

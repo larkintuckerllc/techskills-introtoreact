@@ -10,10 +10,18 @@ subtitle: Intro to React
 
 Outline:
 
+  - [_Question:_] We have re-implemented our reference, what else is there?
   - Separate out complex render methods
     - Separation of concerns
     - simplified syntax as only render method
   - Stateless functional component
+      - [_Cue_:]
+      - See in action
+      - Execute
+        - working directory
+          - stateless
+        - command
+          - yarn start
     - [_Cue_:]
       - Implement render as function
       - exported function is the render method of resultant component.
@@ -33,15 +41,9 @@ Outline:
     - [_Cue_:]
       - Using properties
       - proptypes are a validation check
+      - [_Question_:] Are proptypes required?
       - see use of destructuring here
       - Editor
-    - [_Cue_:]
-      - See in action
-      - Execute
-        - working directory
-          - stateless
-        - command
-          - yarn start
   - Component Lifecycle
     - Somewhat more advanced topic
     - constructor
@@ -51,17 +53,8 @@ Outline:
     - componentDidMount
       - called after first render
       - useful to fetch data from the server
-  - React Developer Tools
-    - [_Cue_:]
-      - Installed from Chrome Web Store
-      - Browser
-        - Google Chrome Web Store
-    - [_Cue_:]
-      - Inspect component hiearchy, state, and properties
-      - Browser
-        - Developer Tools
+  - [_Question_:] What else do I need to learn about React.
   - Third-Party Tools
-    - Fetch API: Polyfill for fetch API, simple HTTP
     - React Router: bookmarkable URLs in your application.
     - Redux: Redux is the defacto-standard for advanced state management with React.
     - React Redux: Integration with React
